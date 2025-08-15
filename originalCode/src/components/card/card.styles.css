@@ -1,0 +1,38 @@
+.card-container {
+
+width: 200px;
+margin: 24px 0;
+display: flex;
+
+flex-direction: column;
+
+
+padding: 25px;
+
+cursor: pointer;
+
+-moz-osx-font-smoothing: grayscale;
+
+backface-visibility: hidden;
+
+transform: translateZ(0);
+
+transition: transform 0.25s ease-out;
+
+text-align: center;
+
+backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: hsla(0, 0%, 25%,0.4);
+    border-radius: 12px;
+    border: 1px solid hsla(0, 0%, 25%,0.2);
+
+
+}
+
+.card-container:hover {
+
+transform: scale(1.05);
+
+}
+
